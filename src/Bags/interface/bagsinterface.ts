@@ -1,4 +1,4 @@
-export class KidsDTO {
+export interface BagsInterface {
   img_src: String;
   isLike: Boolean;
   brand_name: String;
@@ -7,5 +7,7 @@ export class KidsDTO {
   new_rs: String;
   offer: String;
   stars: String;
- 
+  size: String;
+  qty: Number;
+  delivery: String;
 }

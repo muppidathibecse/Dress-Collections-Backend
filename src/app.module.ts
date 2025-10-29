@@ -6,6 +6,7 @@ import { MenModule } from './Mens/men/men.module';
 import { WomenModule } from './Womens/women/women.module';
 import { KidsModule } from './Kids/kids/kids.module';
 import { LikesModule } from './Likes/likes/likes.module';
+import { BagsModule } from './Bags/bags/bags.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { LikesModule } from './Likes/likes/likes.module';
     WomenModule,
     KidsModule,
     LikesModule,
+    BagsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

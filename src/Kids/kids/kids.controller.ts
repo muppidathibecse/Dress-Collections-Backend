@@ -7,7 +7,7 @@ import { KidsDTO } from '../DTO/kidsdto';
 export class KidsController {
   constructor(public KidServices: KidsService) {}
   @Get()
-  async GetAllItemk(): Promise<KidsInterface[] | null> {
+  async GetAllItem(): Promise<KidsInterface[] | null> {
     return await this.KidServices.GetAllItem();
   }
   @Post()
